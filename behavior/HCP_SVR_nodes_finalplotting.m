@@ -246,8 +246,8 @@ ylabel('ectopic prediction');
 if compare_to_null
     %patch([plot_min nanmean(per95_NULL_border) nanmean(per95_NULL_border) plot_min],[plot_min,plot_min,plot_max,plot_max],[0.8 .8 1],'FaceAlpha',0.25,'EdgeColor','none');
     %patch([plot_min plot_max plot_max plot_min],[plot_min,plot_min,nanmean(per95_NULL_ectopic),nanmean(per95_NULL_ectopic)],[1 .8 0.8],'FaceAlpha',0.25,'EdgeColor','none');
-    hline_new(nanmean(per95_NULL_border),'b--',1);
-    vline_new(nanmean(per95_NULL_ectopic),'r--',1);
+    vline_new(nanmean(per95_NULL_border),'b--',1);
+    hline_new(nanmean(per95_NULL_ectopic),'r--',1);
 end
 %hline_new(0,'k',0.5);
 %vline_new(0,'k',0.5);
