@@ -2,7 +2,7 @@ This repository contains MATLAB scripts used to conduct border/ectopic variant a
 
 For original variant creation steps, see scripts in GitHub repo from Seitzman et al., 2019, *Trait-like variants in human functional brain networks* (PNAS): https://github.com/GrattonLab/SeitzmanGratton-2019-PNAS to compute individual-to-group spatial correlation, binarize pre-variant maps, and extract variants' correlation coefficients to network templates.
 
-1. **variant_classification**: Classify variants as border or ectopic using classify_variants_network_dependent.m (parcellation-dependent, distance-to-same-network classification) or classify_variants_parcellation_free.m (parcellation-independent, distance-to-peak-group-similarity classification).
+1. **variant_classification**: First, classify variants as border or ectopic using classify_variants_network_dependent.m (parcellation-dependent, distance-to-same-network classification) or classify_variants_parcellation_free.m (parcellation-independent, distance-to-peak-group-similarity classification).
 
 The scripts in remaining folders can be run in any order:
 - **spatial_distribution**: perform and visualize results of permutation analysis examining border/ectopic variant differences in spatial distribution across the cortex, plus cluster-correction of permutation analyses.
