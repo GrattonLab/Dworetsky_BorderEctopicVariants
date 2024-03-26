@@ -9,7 +9,7 @@ The scripts in remaining folders can be run in any order:
 - **network_distribution**: perform and plot results of permutation analysis examining border/ectopic variant differences in network assignments.
 - **twins**: compute and plot Dice coefficient of subject pairs of interest across groups (e.g., MZ twins, DZ twins, siblings, unrelated individuals); permutation analysis of Falconer's formula in MZ and DZ groups.
 - **task responses**: organize task contrast map data; compare border and ectopic task activations across contrasts in relation to canonical assigned network and all other networks; plot normalized value of variants' activations shift toward canonical network (for networks of interest).
-- **subgroups**: identify/plot properties of border/ectopic subgroups across individuals. Intended to be run after templateMatchingVariants.m from https://github.com/GrattonLab/SeitzmanGratton-2019-PNAS (separately for border and ectopic variants). Also requires Infomap (https://www.mapequation.org) - Run_Infomap_2015 has been previously shared at https://github.com/MidnightScanClub/MSCcodebase/tree/master/Utilities/Infomap_wrapper.
+- **subgroups**: identify/plot properties of border/ectopic subgroups across individuals. Intended to be run after templateMatchingVariants.m from https://github.com/GrattonLab/SeitzmanGratton-2019-PNAS (separately for border and ectopic variants). Also requires Infomap (https://www.mapequation.org) - Run_Infomap_2015.m has been previously shared at https://github.com/MidnightScanClub/MSCcodebase/tree/master/Utilities/Infomap_wrapper.
 - **behavior**: use variants' network or location info to predict behavioral phenotypes (see README-behprediction.txt for more info).
 
 **Resources**:
